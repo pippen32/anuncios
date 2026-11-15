@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anuncios por Encargo — PROFE SHOP | Tu negocio en TV y redes sin pagar la agencia</title>
+<meta name="description" content="Comerciales profesionales de 30 segundos para negocios locales: redes sociales y TV por streaming. Primer anuncio de prueba: $49. Sin contratos largos, en español.">
+<style>
+:root{--bg:#07071a;--bg2:#12082e;--panel:#0e0e2c;--line:#26265a;--magenta:#ff2e88;--cyan:#00e5ff;--yellow:#ffd400;--green:#25d366;--txt:#f2f2ff;--mut:#a7a7d6}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--txt);font-family:"Segoe UI",Arial,Helvetica,sans-serif;line-height:1.55;overflow-x:hidden}
+h1,h2,h3{font-family:"Arial Black","Segoe UI",Arial,sans-serif;text-transform:uppercase;letter-spacing:.5px;line-height:1.12}
+.wrap{max-width:1180px;margin:0 auto;padding:0 20px}
+header{position:sticky;top:0;z-index:50;background:rgba(7,7,26,.92);backdrop-filter:blur(8px);border-bottom:2px solid var(--magenta)}
+.hbar{display:flex;align-items:center;gap:14px;padding:12px 0}
+.logo{display:flex;align-items:center;gap:10px;font-family:"Arial Black",Arial,sans-serif;font-size:22px;color:#fff;text-decoration:none}
+.logo svg{width:40px;height:40px}
+.logo em{font-style:normal;color:var(--yellow)}
+.hbar nav{margin-left:auto;display:flex;gap:22px;align-items:center}
+.hbar nav a{color:var(--txt);text-decoration:none;font-weight:700;font-size:15px}
+.hbar nav a:hover{color:var(--cyan)}
+.btn{display:inline-block;background:var(--green);color:#062b16;font-weight:900;text-decoration:none;padding:13px 26px;border-radius:999px;font-size:17px;box-shadow:0 0 22px rgba(37,211,102,.45);border:none;cursor:pointer;text-transform:uppercase;letter-spacing:.4px}
+.btn:hover{filter:brightness(1.1)}
+.btn.mag{background:var(--magenta);color:#fff;box-shadow:0 0 22px rgba(255,46,136,.5)}
+.btn.ghost{background:transparent;color:var(--cyan);border:2px solid var(--cyan);box-shadow:none}
+.hero{background:radial-gradient(900px 480px at 15% 0%,rgba(255,46,136,.28),transparent 60%),radial-gradient(900px 520px at 90% 20%,rgba(0,229,255,.20),transparent 60%),linear-gradient(180deg,var(--bg2),var(--bg));padding:58px 0 46px;border-bottom:1px solid var(--line)}
+.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:38px;align-items:center}
+.kicker{color:var(--yellow);font-weight:900;letter-spacing:2.5px;font-size:14px;text-transform:uppercase}
+.hero h1{font-size:clamp(30px,4.6vw,52px);margin:14px 0 16px}
+.hero h1 .hl{color:var(--magenta)}
+.hero h1 .hl2{color:var(--cyan)}
+.hero p.sub{font-size:19px;color:var(--mut);max-width:34em}
+.hero p.sub b{color:#fff}
+.cta-row{display:flex;gap:14px;flex-wrap:wrap;margin-top:26px}
+.hero .mini{margin-top:14px;color:var(--mut);font-size:14px}
+.phone-frame{background:#000;border:3px solid var(--magenta);border-radius:22px;padding:8px;box-shadow:0 0 44px rgba(255,46,136,.35);max-width:330px;margin:0 auto}
+.phone-frame video{width:100%;border-radius:14px;display:block;aspect-ratio:9/16;object-fit:cover;background:#000}
+.phone-tag{text-align:center;margin-top:10px;font-weight:800;color:var(--yellow);font-size:14px;text-transform:uppercase;letter-spacing:1px}
+.gancho{background:linear-gradient(90deg,#2b0a3e,#12082e 55%,#04263b);border-top:3px solid var(--yellow);border-bottom:3px solid var(--yellow);padding:40px 0}
+.gancho-grid{display:grid;grid-template-columns:auto 1fr auto;gap:30px;align-items:center}
+.price49{font-family:"Arial Black",Arial,sans-serif;font-size:clamp(64px,9vw,110px);color:var(--yellow);text-shadow:0 0 34px rgba(255,212,0,.45);line-height:1}
+.gancho h2{font-size:clamp(22px,3vw,32px)}
+.gancho h2 .tach{color:var(--magenta);text-decoration:line-through}
+.gancho ul{list-style:none;margin-top:10px;color:var(--mut);font-size:16.5px}
+.gancho ul li::before{content:"✔ ";color:var(--green);font-weight:900}
+section{padding:56px 0}
+.sec-kicker{color:var(--cyan);font-weight:900;letter-spacing:2.5px;font-size:13px;text-transform:uppercase;text-align:center}
+h2.sec{text-align:center;font-size:clamp(24px,3.4vw,38px);margin:10px 0 8px}
+p.sec-sub{text-align:center;color:var(--mut);max-width:46em;margin:0 auto 34px;font-size:17px}
+.chart{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:30px 28px;max-width:920px;margin:0 auto}
+.crow{margin-bottom:22px}
+.crow:last-child{margin-bottom:0}
+.crow .lab{display:flex;justify-content:space-between;gap:12px;font-weight:800;font-size:16px;margin-bottom:7px;flex-wrap:wrap}
+.crow .lab .amt{color:var(--yellow);font-family:"Arial Black",Arial,sans-serif}
+.crow .track{background:#05051a;border-radius:999px;height:26px;overflow:hidden}
+.crow .fill{height:100%;border-radius:999px;background:linear-gradient(90deg,#5a5a9e,#3a3a72)}
+.crow.ours .fill{background:linear-gradient(90deg,var(--magenta),var(--cyan));box-shadow:0 0 18px rgba(0,229,255,.5)}
+.crow.ours .lab .amt{color:var(--green)}
+.chart .note{margin-top:16px;color:var(--mut);font-size:13.5px;text-align:center}
+.calc{max-width:920px;margin:26px auto 0;background:#0a0a24;border:1px dashed var(--cyan);border-radius:18px;padding:24px 28px;text-align:center}
+.calc h3{font-size:19px;margin-bottom:12px}
+.calc select{background:var(--panel);color:#fff;border:1px solid var(--line);border-radius:10px;padding:10px 14px;font-size:16px;font-weight:700}
+.calc .res{margin-top:14px;font-size:17px}
+.calc .res b{color:var(--green)}
+.wall{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.wcard{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:12px}
+.wcard video{width:100%;border-radius:12px;display:block;aspect-ratio:9/16;object-fit:cover;background:#000}
+.wcard h3{font-size:16px;margin:12px 4px 2px}
+.wcard p{color:var(--mut);font-size:14px;margin:0 4px 6px}
+.mtag{display:inline-block;background:var(--magenta);color:#fff;font-size:11.5px;font-weight:900;padding:3px 10px;border-radius:999px;letter-spacing:1.5px;margin:0 4px}
+.packs{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;align-items:stretch}
+.pack{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:26px 22px;display:flex;flex-direction:column}
+.pack.hot{border:3px solid var(--yellow);box-shadow:0 0 34px rgba(255,212,0,.25);position:relative}
+.pack.pop{border:3px solid var(--magenta);box-shadow:0 0 34px rgba(255,46,136,.25);position:relative}
+.ribbon{position:absolute;top:-15px;left:50%;transform:translateX(-50%);background:var(--yellow);color:#231a00;font-weight:900;font-size:12.5px;padding:5px 16px;border-radius:999px;letter-spacing:1px;white-space:nowrap}
+.pack.pop .ribbon{background:var(--magenta);color:#fff}
+.pack h3{font-size:18px}
+.pack .precio{font-family:"Arial Black",Arial,sans-serif;font-size:42px;margin:10px 0 2px;color:#fff}
+.pack .precio small{font-size:16px;color:var(--mut)}
+.pack .antes{color:var(--magenta);font-weight:800;text-decoration:line-through}
+.pack ul{list-style:none;margin:14px 0 20px;color:var(--mut);font-size:15px;flex:1}
+.pack ul li{margin-bottom:8px}
+.pack ul li::before{content:"▸ ";color:var(--cyan);font-weight:900}
+.pack .btn{text-align:center;width:100%}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;max-width:1000px;margin:0 auto}
+.step{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:26px 22px;text-align:center}
+.step .num{font-family:"Arial Black",Arial,sans-serif;font-size:44px;color:var(--magenta)}
+.step h3{font-size:18px;margin:8px 0}
+.step p{color:var(--mut);font-size:15.5px}
+.faq{max-width:820px;margin:0 auto}
+.faq details{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:18px 22px;margin-bottom:12px}
+.faq summary{font-weight:800;font-size:16.5px;cursor:pointer}
+.faq p{color:var(--mut);margin-top:8px}
+.final{background:linear-gradient(180deg,var(--bg2),#2b0a3e);text-align:center;border-top:2px solid var(--magenta)}
+.final h2{font-size:clamp(26px,4vw,42px);margin-bottom:12px}
+.final p{color:var(--mut);font-size:18px;max-width:40em;margin:0 auto 26px}
+footer{padding:26px 0;text-align:center;color:var(--mut);font-size:14px;border-top:1px solid var(--line)}
+.wa-float{position:fixed;right:18px;bottom:18px;z-index:60;background:var(--green);color:#062b16;width:60px;height:60px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:29px;text-decoration:none;box-shadow:0 6px 24px rgba(0,0,0,.5)}
+@media(max-width:1020px){.wall{grid-template-columns:repeat(2,1fr)}.packs{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:760px){.hero-grid{grid-template-columns:1fr}.gancho-grid{grid-template-columns:1fr;text-align:center}.gancho ul{text-align:left}.steps{grid-template-columns:1fr}.packs{grid-template-columns:1fr}.wall{grid-template-columns:1fr}.hbar nav a{display:none}.hbar nav .btn{display:inline-block}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap hbar">
+    <a class="logo" href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF4A2D"/><stop offset="1" stop-color="#FF7A1A"/></linearGradient></defs><rect x="2" y="2" width="60" height="60" rx="14" fill="url(#lg)"/><text x="32" y="45" text-anchor="middle" font-family="Arial,sans-serif" font-weight="900" font-size="36" fill="#FFFFFF">P</text><circle cx="47" cy="17" r="5" fill="#FFB03A"/></svg>PROFE <em>SHOP</em></a>
+    <nav>
+      <a href="#muestras">Muestras</a>
+      <a href="#precios">Precios</a>
+      <a href="#paquetes">Paquetes</a>
+      <a href="en.html">EN</a>
+      <a class="btn" href="mailto:swingbravo@gmail.com?subject=Anuncio%20de%20prueba%20%2449" target="_blank" rel="noopener">Escríbenos</a>
+    </nav>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="kicker">Anuncios por encargo · PROFE SHOP</div>
+      <h1>Tu negocio en anuncios de <span class="hl">TV</span> y <span class="hl2">redes</span> — sin pagar los $2,000+ de una agencia</h1>
+      <p class="sub">Comerciales profesionales de <b>30 segundos</b>, con tu nombre, tu teléfono y tu oferta. Listos pa' <b>redes sociales</b> y pa' <b>televisión por streaming</b> (Roku, Hulu, YouTube TV, por tu zona). En español, sin contratos largos y entregados <b>en días, no en semanas</b>.</p>
+      <div class="cta-row">
+        <a class="btn" href="mailto:swingbravo@gmail.com?subject=Anuncio%20de%20prueba%20%2449" target="_blank" rel="noopener">Quiero mi anuncio — $49</a>
+        <a class="btn ghost" href="#muestras">Ver las muestras</a>
+      </div>
+      <p class="mini">Primer anuncio de prueba: <b style="color:var(--yellow)">$49</b> · Precio regular $149 · Sin compromiso de mensualidad</p>
+    </div>
+    <div>
+      <div class="phone-frame">
+        <video controls preload="none" poster="poster-tropika.jpg" playsinline>
+          <source src="muestra-tropika-web.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="phone-tag">Muestra real de 30 s — Tropika (marca ficticia)</div>
+    </div>
+  </div>
+</div>
+
+<div class="gancho" id="prueba">
+  <div class="wrap gancho-grid">
+    <div class="price49">$49</div>
+    <div>
+      <h2>Tu primer anuncio de prueba <span class="tach">$149</span> → $49</h2>
+      <ul>
+        <li>Anuncio completo de 30 segundos, terminado y listo pa' publicar</li>
+        <li>Versión vertical pa' redes + versión horizontal lista pa' TV streaming</li>
+        <li>Texto de publicación incluido</li>
+        <li>Sin compromiso de mensualidad — si te gusta, seguimos</li>
+      </ul>
+    </div>
+    <a class="btn mag" href="mailto:swingbravo@gmail.com?subject=Anuncio%20de%20prueba%20%2449" target="_blank" rel="noopener">Pedir mi prueba</a>
+  </div>
+</div>
+
+<section id="precios">
+  <div class="wrap">
+    <div class="sec-kicker">La comparación que importa</div>
+    <h2 class="sec">Lo que cuesta un comercial… y lo que cobramos nosotros</h2>
+    <p class="sec-sub">Cifras reales del mercado en 2026. La producción de anuncios se cobró toda la vida como un lujo — ya no tiene por qué.</p>
+    <div class="chart">
+      <div class="crow"><div class="lab"><span>Agencia tradicional (mensualidad)</span><span class="amt">$2,000–$3,500 /mes</span></div><div class="track"><div class="fill" style="width:100%"></div></div></div>
+      <div class="crow"><div class="lab"><span>Producción clásica de un comercial de TV</span><span class="amt">$1,500–$10,000 /comercial</span></div><div class="track"><div class="fill" style="width:86%"></div></div></div>
+      <div class="crow"><div class="lab"><span>Estudio de anuncios con IA</span><span class="amt">$227–$238 /video</span></div><div class="track"><div class="fill" style="width:44%"></div></div></div>
+      <div class="crow ours"><div class="lab"><span>PROFE SHOP — Anuncios por Encargo</span><span class="amt">Prueba $49 · Anuncio $149 · Mes $299</span></div><div class="track"><div class="fill" style="width:13%"></div></div></div>
+      <p class="note">Rangos de mercado verificados en guías de precios y estudios reales (2026). La pauta de TV/streaming se paga aparte — ver paquetes.</p>
+    </div>
+    <div class="calc">
+      <h3>Calcula tu ahorro</h3>
+      <label for="nAds">¿Cuántos anuncios necesitas al mes?
+        <select id="nAds">
+          <option value="1">1 anuncio</option>
+          <option value="4" selected>4 anuncios</option>
+          <option value="8">8 anuncios</option>
+        </select>
+      </label>
+      <div class="res" id="calcRes"></div>
+    </div>
+  </div>
+</section>
+
+<section id="muestras" style="background:var(--bg2)">
+  <div class="wrap">
+    <div class="sec-kicker">La prueba visible</div>
+    <h2 class="sec">Así se ve un comercial nuestro</h2>
+    <p class="sec-sub">Cuatro comerciales de muestra de 30 segundos, en las categorías que se anuncian en TV todo el día. Las marcas son ficticias — <b style="color:#fff">imagina ahí el nombre de TU negocio</b>.</p>
+    <div class="wall">
+      <div class="wcard">
+        <video controls preload="none" poster="poster-vidaplena.jpg" playsinline><source src="muestra-vidaplena-web.mp4" type="video/mp4"></video>
+        <h3>VidaPlena</h3><span class="mtag">MUESTRA</span>
+        <p>Medicina y bienestar · Suplemento de vitaminas</p>
+      </div>
+      <div class="wcard">
+        <video controls preload="none" poster="poster-palmas.jpg" playsinline><source src="muestra-palmas-web.mp4" type="video/mp4"></video>
+        <h3>Residencial Las Palmas</h3><span class="mtag">MUESTRA</span>
+        <p>Sitios pa' vivir · Apartamentos con piscina</p>
+      </div>
+      <div class="wcard">
+        <video controls preload="none" poster="poster-tropika.jpg" playsinline><source src="muestra-tropika-web.mp4" type="video/mp4"></video>
+        <h3>Tropika</h3><span class="mtag">MUESTRA</span>
+        <p>Producto de consumo · Refresco tropical</p>
+      </div>
+      <div class="wcard">
+        <video controls preload="none" poster="poster-dental.jpg" playsinline><source src="muestra-dental-web.mp4" type="video/mp4"></video>
+        <h3>Sonrisa Dental</h3><span class="mtag">MUESTRA</span>
+        <p>Servicio de ticket alto · Clínica dental</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="paquetes">
+  <div class="wrap">
+    <div class="sec-kicker">Paquetes claros, sin letra pequeña</div>
+    <h2 class="sec">Escoge cómo empezamos</h2>
+    <p class="sec-sub">Todos los anuncios duran 30 segundos, llevan tu nombre, tu teléfono y tu oferta, y se entregan en días. Sin contratos largos.</p>
+    <div class="packs">
+      <div class="pack hot">
+        <div class="ribbon">EMPIEZA AQUÍ</div>
+        <h3>Anuncio de Prueba</h3>
+        <div class="precio">$49</div>
+        <div class="antes">Precio regular $149</div>
+        <ul>
+          <li>1 anuncio completo de 30 s</li>
+          <li>Versión vertical pa' redes</li>
+          <li>Versión horizontal lista pa' TV streaming</li>
+          <li>Texto de publicación incluido</li>
+          <li>Sin compromiso de mensualidad</li>
+        </ul>
+        <a class="btn" href="mailto:swingbravo@gmail.com?subject=Anuncio%20de%20prueba%20%2449" target="_blank" rel="noopener">Pedir mi prueba</a>
+      </div>
+      <div class="pack">
+        <h3>Anuncio Individual</h3>
+        <div class="precio">$149</div>
+        <div>&nbsp;</div>
+        <ul>
+          <li>1 anuncio de 30 s</li>
+          <li>Versión vertical pa' redes</li>
+          <li>Versión horizontal lista pa' TV streaming</li>
+          <li>Texto de publicación incluido</li>
+        </ul>
+        <a class="btn ghost" href="mailto:swingbravo@gmail.com?subject=Anuncio%20de%20prueba%20%2449" target="_blank" rel="noopener">Lo quiero</a>
+      </div>
+      <div class="pack pop">
+        <div class="ribbon">EL FAVORITO</div>
+        <h3>Mensual</h3>
+        <div class="precio">$299<small>/mes</small></div>
+        <div>&nbsp;</div>
+        <ul>
+          <li>4 anuncios al mes (1 por semana)</li>
+          <li>1 versión pa' TV incluida</li>
+          <li>Textos de publicación incluidos</li>
+          <li>Tu negocio anunciándose todo el mes</li>
+        </ul>
+        <a class="btn mag" href="mailto:swingbravo@gmail.com?subject=Anuncio%20de%20prueba%20%2449" target="_blank" rel="noopener">Empezar el mes</a>
+      </div>
+      <div class="pack">
+        <h3>TV + Redes</h3>
+        <div class="precio">$499<small>/mes</small></div>
+        <div>&nbsp;</div>
+        <ul>
+          <li>8 anuncios al mes</li>
+          <li>Preparamos tu pauta de streaming</li>
+          <li>Tu comercial en Roku, Hulu, YouTube TV y más, por tu zona</li>
+          <li>La pauta la pagas tú aparte, desde ~$30/día</li>
+        </ul>
+        <a class="btn ghost" href="mailto:swingbravo@gmail.com?subject=Anuncio%20de%20prueba%20%2449" target="_blank" rel="noopener">Quiero TV + Redes</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="background:var(--bg2)">
+  <div class="wrap">
+    <div class="sec-kicker">Así de fácil</div>
+    <h2 class="sec">De tu idea al aire en 3 pasos</h2>
+    <p class="sec-sub"></p>
+    <div class="steps">
+      <div class="step"><div class="num">1</div><h3>Cuéntanos tu negocio</h3><p>Por correo: qué vendes, tu oferta y tu teléfono. Si tienes fotos o logo, mejor — y si no, las producimos nosotros.</p></div>
+      <div class="step"><div class="num">2</div><h3>Producimos tu comercial</h3><p>Guion, imágenes en movimiento, música y tu tarjeta final con teléfono. Entrega en días, no en las 3–6 semanas de una agencia.</p></div>
+      <div class="step"><div class="num">3</div><h3>Al aire</h3><p>Lo publicas en tus redes el mismo día. Y si quieres TV, tu versión horizontal está lista pa' streaming en tu zona.</p></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="sec-kicker">Preguntas de verdad</div>
+    <h2 class="sec">Lo que todo el mundo pregunta</h2>
+    <p class="sec-sub"></p>
+    <div class="faq">
+      <details><summary>¿De verdad sale en televisión?</summary><p>Sí — en la televisión que hoy ve tu cliente: la de <b>streaming</b>. Tu comercial puede salir en Roku, Hulu, YouTube TV y plataformas parecidas, dirigido por zona (código postal) a la gente cerca de tu negocio. La pauta (el espacio) se paga aparte, desde unos $30/día según la zona y la plataforma; en el plan TV + Redes nosotros te la preparamos.</p></details>
+      <details><summary>¿Por qué tan barato si una agencia cobra miles?</summary><p>Porque producimos con tecnología de inteligencia artificial, sin equipo de filmación ni estudios alquilados. El resultado se ve profesional, se entrega en días y no firmas contratos largos. Nuestro costo bajó — y te pasamos el ahorro.</p></details>
+      <details><summary>¿Qué incluye exactamente el anuncio de prueba de $49?</summary><p>Un comercial completo de 30 segundos de tu negocio: versión vertical pa' redes y versión horizontal lista pa' TV streaming, con tu nombre, teléfono y oferta, más el texto pa' publicarlo. Es el mismo anuncio que luego cuesta $149 — la prueba es la oferta de entrada, sin compromiso de mensualidad.</p></details>
+      <details><summary>¿Necesito fotos o videos de mi negocio?</summary><p>No es obligatorio. Si los tienes, los usamos; si no, producimos las escenas por ti. Lo que sí necesitamos: tu nombre comercial, tu teléfono, tu oferta y tu zona.</p></details>
+      <details><summary>¿Hay contrato o permanencia?</summary><p>No. Los planes mensuales son mes a mes. La idea es que te quedes por los resultados, no por un papel firmado.</p></details>
+    </div>
+  </div>
+</section>
+
+<section class="final">
+  <div class="wrap">
+    <h2>Tu competencia ya se anuncia.<br>Te toca a ti.</h2>
+    <p>Empieza con el anuncio de prueba de $49 y mira tu negocio como un comercial de verdad. Escríbenos por correo y lo ponemos en producción.</p>
+    <a class="btn" href="mailto:swingbravo@gmail.com?subject=Anuncio%20de%20prueba%20%2449" target="_blank" rel="noopener">swingbravo@gmail.com</a>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">PROFE SHOP · Anuncios por Encargo — Comerciales pa' negocios locales, en español.<br>Los comerciales de muestra usan marcas ficticias con fines de demostración.</div>
+</footer>
+
+<a class="wa-float" href="mailto:swingbravo@gmail.com?subject=Anuncio%20de%20prueba%20%2449" target="_blank" rel="noopener" aria-label="Correo">✉️</a>
+
+<script>
+(function(){
+  function fmt(n){ return "$" + n.toLocaleString("en-US"); }
+  function calc(){
+    var sel = document.getElementById("nAds");
+    var res = document.getElementById("calcRes");
+    if(!sel || !res) return;
+    var n = parseInt(sel.value, 10);
+    var agencia = 2750; // punto medio del rango $2,000–$3,500/mes
+    var estudio = 232 * n; // punto medio $227–$238 por video
+    var nuestro, nuestroTxt;
+    if(n === 1){ nuestro = 49; nuestroTxt = "$49 (prueba)"; }
+    else if(n === 4){ nuestro = 299; nuestroTxt = "$299/mes (Mensual)"; }
+    else { nuestro = 499; nuestroTxt = "$499/mes (TV + Redes)"; }
+    var ahorro = agencia - nuestro;
+    res.innerHTML = "Con una agencia pagarías ~<b>" + fmt(agencia) + "/mes</b> · con un estudio de IA ~<b>" +
+      fmt(estudio) + "</b> · con nosotros <b>" + nuestroTxt + "</b> → te ahorras ~<b>" + fmt(ahorro) + " al mes</b>.";
+  }
+  var s = document.getElementById("nAds");
+  if(s){ s.addEventListener("change", calc); }
+  try { calc(); } catch(e) {}
+})();
+</script>
+</body>
+</html>
